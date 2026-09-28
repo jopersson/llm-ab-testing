@@ -1,0 +1,13 @@
+\begin{tabular}{llrrrr}
+\toprule
+DGP & Calibration model & Mean $\hat\tau$ & Bias & RMSE & SD \\
+\midrule
+Linear (true $\tau = 0.300$) & OLS & 0.2994 & -0.0006 & 0.0122 & 0.0122 \\
+ & Random forest & 0.2996 & -0.0004 & 0.0131 & 0.0131 \\
+ & Gradient boosting & 0.2992 & -0.0008 & 0.0134 & 0.0134 \\
+\midrule
+Nonlinear (true $\tau = 0.273$) & OLS & 0.2552 & -0.0175 & 0.0264 & 0.0197 \\
+ & Random forest & 0.2695 & -0.0032 & 0.0207 & 0.0205 \\
+ & Gradient boosting & 0.2704 & -0.0023 & 0.0206 & 0.0205 \\
+\bottomrule
+\end{tabular}

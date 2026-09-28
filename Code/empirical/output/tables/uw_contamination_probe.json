@@ -1,0 +1,10 @@
+{
+  "n_probed": 300,
+  "mean_token_f1": 0.09325982968049218,
+  "median_token_f1": 0.0909090909090909,
+  "frac_token_f1_above_0_5": 0.0,
+  "frac_token_f1_above_0_8": 0.0,
+  "mean_char_ratio": 0.38871633170709413,
+  "frac_exact_match": 0.0,
+  "interpretation": "High mean_token_f1 or frac_token_f1_above_0_8 indicates the LLM recovers the Upworthy suffix well given a short prefix, which is evidence of headline memorisation. A non-memorising LLM should produce semantically plausible but token-overlap-low continuations (token_f1 ~ 0.1-0.3)."
+}
